@@ -1,6 +1,9 @@
 import About from "./components/About";
+import AllinOne from "./components/AllinOne";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import Pricing from "./components/Pricing";
+import Support from "./components/Support";
 
 function App() {
   return (
@@ -8,6 +11,9 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <Support />
+      <AllinOne />
+      <Pricing />
     </>
   );
 }

@@ -29,10 +29,10 @@ const Hero = () => {
                 '>
                     <p className='text-2xl font-bold'>Data Services</p>
                     <div className='flex justify-between flex-wrap px-4'>
-                        <p className='flex px-4 py-2' ><GiDatabase className='h-6 text-indigo-600' /> DashBoard Design</p>
-                        <p className='flex px-4 py-2'>< FaServer className='h-6 text-indigo-600' />Cloud Data</p>
-                        <p className='flex px-4 py-2'><HiPaperAirplane className='h-6 text-indigo-600' /> API</p>
-                        <p className='flex px-4 py-2'><BsCloudArrowUpFill className='h-6 text-indigo-600' /> App Security</p>
+                        <p className='flex px-4 py-2' ><GiDatabase className='h-6 text-indigo-600 mr-2' /> DashBoard Design</p>
+                        <p className='flex px-4 py-2'>< FaServer className='h-6 text-indigo-600 mr-2' />Cloud Data</p>
+                        <p className='flex px-4 py-2'><HiPaperAirplane className='h-6 text-indigo-600 mr-2' /> API</p>
+                        <p className='flex px-4 py-2'><BsCloudArrowUpFill className='h-6 text-indigo-600 mr-2' /> App Security</p>
 
                     </div>
                 </div>

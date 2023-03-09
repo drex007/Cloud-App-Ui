@@ -26,7 +26,7 @@ const Navbar = () => {
 
                 </div>
                 {/* Show menu button when is less than medium (md)screen  */}
-                <div className='md:hidden'>
+                <div className='md:hidden mr-4'>
 
                    {!nav ?  <AiOutlineMenu className='w-5' onClick={handleClick} /> : <ImCancelCircle  size={20} onClick={handleClick}/> }
 
