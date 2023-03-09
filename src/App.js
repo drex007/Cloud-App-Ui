@@ -1,11 +1,20 @@
+import About from "./components/About";
+import AllinOne from "./components/AllinOne";
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
+import Pricing from "./components/Pricing";
+import Support from "./components/Support";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header"> 
-      </header>
-      <h1 className="text-4xl text-center">HI, This is react</h1>
-    </div>
+    <>
+      <Navbar />
+      <Hero />
+      <About />
+      <Support />
+      <AllinOne />
+      <Pricing />
+    </>
   );
 }
 
