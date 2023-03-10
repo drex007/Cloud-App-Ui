@@ -3,7 +3,7 @@ import { AiOutlineCheck } from 'react-icons/ai'
 
 const AllinOne = () => {
     return (
-        <div className='w-full my-24'>
+        <div name='all-in-one' className='w-full my-24'>
             <div className='max-w-[1240px] mx-auto px-2 py-4'>
                 <h2 className='text-5xl font-bold text-center py-3'>All-In-One Platform</h2>
                 <p className='text-2xl py-8 text-gray-600'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>

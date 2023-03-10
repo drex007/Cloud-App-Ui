@@ -2,7 +2,7 @@ import React from 'react'
 import { FaFacebook, FaInstagram, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
 const Footer = () => {
     return (
-        <div className='w-full mt-24 bg-slate-900 px-9 py-2 text-gray-300'>
+        <div name='footer' className='w-full mt-24 bg-slate-900 px-9 py-2 text-gray-300'>
             <div className='max-w-[1240px] mx-auto grid grid-cols-2 md:grid-cols-6 border-b-2 border-gray-600 py-8' >
                 <div>
                     <h6 className='text-xl font-semibold'>Solutions</h6>
